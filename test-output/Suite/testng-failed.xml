@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="PasswordFb" value="Automation@12345"/>
+    <parameter name="urlFb" value="https://en-gb.facebook.com/"/>
+    <parameter name="UsernameFb" value="Automation@gmail.com"/>
+    <classes>
+      <class name="org.test1.SampleClass">
+        <methods>
+          <include name="browserQuit"/>
+          <include name="tc1"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- org.test1.SampleClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
